@@ -1,0 +1,112 @@
+/************************************************
+/* RESTE MEYER
+************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+/************************************************
+/* FIN RESTE MEYER
+************************************************/
+
+body {
+    width: 45em;
+    margin: 2em auto;
+    color:#303030;
+    font-family: Calibri, "Gill Sans", "Gill Sans MT";
+    font-size:1em;
+    line-height:1.5em;
+}
+
+#header {
+    
+    background-color:lightblue;
+    padding:1em;
+}
+h1 {
+    text-align:center;
+    font-size:2em;
+    font-weight:bold;
+    color:white;
+}
+
+#header ul {
+    
+    margin: 1.2em auto;
+    display:inline-block;
+    text-transform:uppercase;
+    width:68em;
+    font-size:0.8em;
+}
+
+#header li {
+    //float:left;
+    margin:auto 0;
+    display:inline;
+    padding:1em 2.3em;
+    vertical-align:middle;
+}
+
+
+a{
+   color:#D53232;
+    text-decoration:none;
+    font-style:normal;
+}
+a:hover{
+    color:#B52A2A;
+    transition:0.3s;
+}
+p{
+    padding:0.5em 0;
+}
+
+#couverture {
+    float:right;
+}
+
+h1,h2,h3 {
+    margin:1em;
+}
